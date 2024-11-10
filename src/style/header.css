@@ -1,0 +1,48 @@
+.header{
+    width: 100%;
+    height: 60px;
+   background-color: #FFB400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right-div{
+    width: 40%;  
+}
+.header-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-links{
+    list-style-type:none;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-left: 10px;
+    font-size:30 ;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+@media screen  and (min-width:100px) and (max-width:750px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-right-div{
+        width: 100%;  
+    }
+    .nav-links{
+        font-size: 15px;
+    }
+}
+    
